@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "roboto";
+  src: url("/assets/Roboto-Light-webfont.woff");
+}
+.card {
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  /* box-sizing: content-box; */
+  padding: 0.5%;
+}
+.img-bmark {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2%;
+}
+.img-btn-bmark {
+  background-color: white;
+  width: 10%;
+  outline: none;
+  border: none;
+}
+.bookmark-img {
+  width: 150%;
+}
+.img-iro {
+  align-self: center;
+  width: 93%;
+  height: 10%;
+}
+.container {
+  font-family: roboto;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  margin-left: 3%;
+  margin-right: 2.5%;
+  text-align: left;
+}
+
+.container_after_text {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.btns-for-atc-msg {
+  display: flex;
+  justify-content: flex-end;
+}
+.atc-img {
+  width: 50%;
+  margin-left: 1%;
+  align-self: end;
+}
+.atc-img-b {
+  width: 50%;
+}
+.img-btn {
+  outline: none;
+  background-color: white;
+  border: none;
+  width: 20%;
+}
+.img-btn-msg {
+  background-color: white;
+  width: 20%;
+  outline: none;
+  border: none;
+}
+.btn-above-hr {
+  background-color: #236fed;
+  border-radius: 40% / 100%;
+  color: white;
+  outline: none;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4%;
+}
+.btnl {
+  font-family: roboto;
+  background-color: white;
+  border-radius: 40% / 100%;
+  margin-right: 10%;
+  margin: 2%;
+  outline: none;
+}
+.btnr {
+  font-family: roboto;
+  background-color: #236fed;
+  border-radius: 50% / 100%;
+  color: white;
+  margin: 1%;
+  outline: none;
+}

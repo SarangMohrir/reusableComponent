@@ -1,0 +1,38 @@
+<div class="card">
+  <div class="img-bmark">
+    <button class="img-btn-bmark" (click)="OnClickBookmark()">
+      <img
+        class="bookmark-img"
+        src="assets/bookmark_outline_grey_192x192.png"
+      />
+    </button>
+  </div>
+
+  <img class="img-iro" src="assets/image-iauro.png" alt="iauro-image" />
+  <div class="container">
+    <h3 style="font-weight: bold">{{ cardHead }}</h3>
+    <p style="font-size: small; font-weight: 300;">{{ cardText }}</p>
+  </div>
+  <div class="container_after_text">
+    <button type="button" class="btn-above-hr" (click)="onClickButtonHr()">{{ btn_below_cardText }}</button>
+    <div class="btns-for-atc-msg">
+      <button type="button" class="img-btn" (click)="onClickAttach()">
+        <img
+          class="atc-img"
+          src="/assets/attach_file_grey_192x192.png"
+          alt=""
+        />
+      </button>
+      <button type="button" class="img-btn-msg" (click)="onClickMessage()">
+        <img class="atc-img-b" src="/assets/1613294324922220.png" alt="" />
+      </button>
+    </div>
+  </div>
+  <div class="hr-tag">
+    <hr />
+  </div>
+  <div class="buttons">
+    <button type="button" class="btnl" (click)="onClickLeftButton()">{{ leftButtonText }}</button>
+    <button type="button" class="btnr"(click)="onClickRightButton()">{{ rightButtonText }}</button>
+  </div>
+</div>
