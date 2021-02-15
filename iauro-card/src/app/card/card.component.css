@@ -2,40 +2,45 @@
   font-family: "roboto";
   src: url("/assets/Roboto-Light-webfont.woff");
 }
+
 .card {
-  width: 25%;
+  width: 20%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  /* box-sizing: content-box; */
-  padding: 0.5%;
+  padding: 1.5%;
+  flex: gap;
+  max-width: 323px;
 }
 .img-bmark {
   display: flex;
   justify-content: flex-end;
-  padding-right: 2%;
 }
 .img-btn-bmark {
   background-color: white;
   width: 10%;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .bookmark-img {
-  width: 150%;
+  width: 26px;
 }
 .img-iro {
   align-self: center;
-  width: 93%;
+  width: 100%;
   height: 10%;
 }
 .container {
   font-family: roboto;
-  margin-top: -5%;
-  margin-bottom: -5%;
-  margin-left: 3%;
-  margin-right: 2.5%;
   text-align: left;
+}
+p{
+  width: 281px;
+  height: 66px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .container_after_text {
@@ -46,6 +51,7 @@
 .btns-for-atc-msg {
   display: flex;
   justify-content: flex-end;
+  cursor: pointer;
 }
 .atc-img {
   width: 50%;
@@ -60,18 +66,21 @@
   background-color: white;
   border: none;
   width: 20%;
+  cursor: pointer;
 }
 .img-btn-msg {
   background-color: white;
   width: 20%;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .btn-above-hr {
   background-color: #236fed;
   border-radius: 40% / 100%;
   color: white;
   outline: none;
+  cursor: pointer;
 }
 .buttons {
   display: flex;
@@ -85,6 +94,8 @@
   margin-right: 10%;
   margin: 2%;
   outline: none;
+  cursor: pointer;
+
 }
 .btnr {
   font-family: roboto;
@@ -93,4 +104,6 @@
   color: white;
   margin: 1%;
   outline: none;
+  cursor: pointer;
+  border: 0px;
 }
